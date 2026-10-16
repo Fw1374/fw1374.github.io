@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sigara Bırak</title>
+<meta name="description" content="Sigara Bırak: sigarayı azaltarak bırakmak için kişisel Android uygulaması.">
+<style>
+  :root { --bg: #f4fbf8; --card: #ffffff; --text: #171d1b; --muted: #3f4946; --accent: #1e7f74; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0e1513; --card: #171d1b; --text: #dde4e1; --muted: #bec9c5; --accent: #84d6c8; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { color: var(--accent); margin: 8px 0 4px; font-size: 1.8rem; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; }
+  p, li { color: var(--muted); }
+  .kart { background: var(--card); border-radius: 16px; padding: 16px 20px; margin-top: 16px; }
+  a { color: var(--accent); }
+  footer { margin-top: 32px; font-size: 0.9rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sigara Bırak</h1>
+  <p>Sigarayı azaltarak bırakmak için kişisel bir Android uygulaması. Google Play'de yayımlanmamıştır; yalnız geliştiricisi ve ailesi kullanır.</p>
+
+  <div class="kart">
+    <h2>Ne yapar?</h2>
+    <ul>
+      <li>İçilen her sigarayı saatiyle kaydeder; azaltma planına göre günün hedefini ve planlanan sonraki sigara saatini hesaplar.</li>
+      <li>Nikotin replasmanı (bant, sakız, pastil) kayıtlarını ve kullanım aşamalarını izler.</li>
+      <li>Tasarruf, hesaplanan nikotin ve kullanım istatistiklerini, grafikleri gösterir; kayıtları CSV olarak dışa aktarır.</li>
+      <li>Ana ekran widget'ında sonraki sigara saatini ve bugün içilen / hedef sayısını gösterir.</li>
+    </ul>
+  </div>
+
+  <div class="kart">
+    <h2>Veriler nerede?</h2>
+    <p>Bütün veriler telefonda tutulur. Uygulamanın sunucusu yoktur; reklam, analiz ya da izleme yoktur.</p>
+    <p>Kullanıcı isterse günde bir kez kendi Google Drive'ına yedek alınır. Uygulama Drive'da yalnız kendi oluşturduğu "Sigara Bırak Yedekleri" klasörünü ve yedek dosyalarını görür (drive.file izni); Drive'daki diğer dosyalara erişemez.</p>
+  </div>
+
+  <p><a href="gizlilik.html">Gizlilik politikası</a></p>
+
+  <footer>Son güncelleme: 16 Ekim 2026</footer>
+</main>
+</body>
+</html>
